@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/firstNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter First Number"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/secondNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Second Number"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add (+)" />
+
+    <Button
+        android:id="@+id/subtractButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subtract (-)" />
+
+    <Button
+        android:id="@+id/multiplyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiply (*)" />
+
+    <Button
+        android:id="@+id/divideButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Divide (/)" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result: "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingTop="16dp" />
+
+</LinearLayout>
